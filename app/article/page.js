@@ -1,11 +1,9 @@
 export default function Home() {
   return (
     <article className="bg-gray-50 h-screen" role="article">
-      <header className="py-3 bg-gray-50 dark:bg-gray-900 flex justify-between items-center">
+      <header className="py-3 bg-gray-50 flex justify-between items-center">
         <img src="./images.png" alt="logo amazon" className="h-10 w-auto" />
-        <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
-          Blog
-        </h1>
+        <h1 className="text-2xl font-bold text-gray-900">Blog</h1>
         <a href="/login" className="text-blue-700 hover:text-blue-700 mr-8">
           {" "}
           Login{" "}
@@ -13,8 +11,8 @@ export default function Home() {
       </header>
 
       <article className="px-4 py-6 bg-gray-50">
-        <h2 className="text-3xl font-bold">Amazon</h2>
-        <p className="mt-4 text-lg leading-relaxed">
+        <h2 className="text-3xl font-bold text-gray-900">Amazon</h2>
+        <p className="mt-4 text-lg leading-relaxed text-gray-900 ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh
           praesent tristique magna sit amet purus. Viverra justo nec ultrices
@@ -53,64 +51,64 @@ export default function Home() {
         </thead>
         <tbody class="bg-white divide-y divide-gray-200">
           <tr>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule</td>
           </tr>
           <tr>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule</td>
           </tr>
           <tr>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule </td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule </td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule </td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule </td>
           </tr>
           <tr>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule</td>
           </tr>
           <tr>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule </td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule </td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule </td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule </td>
           </tr>
           <tr>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule </td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule </td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule </td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule </td>
           </tr>
           <tr>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule</td>
           </tr>
           <tr>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule </td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule </td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule </td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule </td>
           </tr>
           <tr>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule </td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule </td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule </td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule </td>
           </tr>
           <tr>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
-            <td class="px-6 py-4 whitespace-nowrap">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule</td>
+            <td class="px-6 py-4 whitespace-nowrap text-gray-700">Cellule</td>
           </tr>
         </tbody>
         <tfoot class="bg-gray-50">
@@ -132,11 +130,11 @@ export default function Home() {
       </table>
 
       <section className="px-4 py-6 bg-gray-50">
-        <div className="font-semibold text-lg mb-4">Commentaires :</div>
+        <div className="font-semibold text-lg mb-4 text-gray-900">Commentaires :</div>
 
-        <article className="bg-gray-50 dark:bg-gray-900 rounded-lg p-4 mb-4">
+        <article className="bg-gray-50  rounded-lg p-4 mb-4">
           <div className="comment-content">
-            <p className="text-base text-gray-800 dark:text-gray-200">
+            <p className="text-base text-gray-800 ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               at purus sit amet urna laoreet luctus. Nullam nec nunc ut nunc
               ullamcorper aliquam
@@ -144,9 +142,9 @@ export default function Home() {
           </div>
         </article>
 
-        <article className="bg-gray-50 dark:bg-gray-900 rounded-lg p-4 mb-4">
+        <article className="bg-gray-50  rounded-lg p-4 mb-4">
           <div className="comment-content">
-            <p className="text-base text-gray-800 dark:text-gray-200">
+            <p className="text-base text-gray-800 ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               at purus sit amet urna laoreet luctus. Nullam nec nunc ut nunc
               ullamcorper aliquam
@@ -154,9 +152,9 @@ export default function Home() {
           </div>
         </article>
 
-        <article className="bg-gray-50 dark:bg-gray-900 rounded-lg p-4">
+        <article className="bg-gray-50  rounded-lg p-4">
           <div className="comment-content">
-            <p className="text-base text-gray-800 dark:text-gray-200">
+            <p className="text-base text-gray-800 ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               at purus sit amet urna laoreet luctus. Nullam nec nunc ut nunc
               ullamcorper aliquam
@@ -164,10 +162,8 @@ export default function Home() {
           </div>
         </article>
       </section>
-      <footer lassName="py-3 bg-gray-50 dark:bg-gray-800">
-        <p className="text-center text-gray-600 dark:text-gray-300">
-          texte du footer
-        </p>
+      <footer lassName="py-3 bg-gray-50 ">
+        <p className="text-center text-gray-600 ">texte du footer</p>
       </footer>
     </article>
   );
